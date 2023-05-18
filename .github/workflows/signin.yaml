@@ -4,6 +4,8 @@ on:
   schedule:
    # 每天国际时间 17:30 运行一次, 中国时间 01:30
     - cron: '30 17 * * *'
+    - cron: '45 22 * * *' 
+    - cron: '0 6 * * *'
   workflow_dispatch:
 jobs:
   signin:
